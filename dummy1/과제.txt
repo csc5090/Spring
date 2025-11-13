@@ -1,0 +1,8 @@
+javac -d classes -cp "lib\datafaker-2.5.3.jar" src/MessageService.java
+javac -d classes -cp classes src/PrintMessage.java
+
+
+
+dummy1 에서 cmd
+
+java -cp "classes;lib/*" kr.or.ddit.PrintMessage
